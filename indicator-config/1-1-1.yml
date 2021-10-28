@@ -1,7 +1,7 @@
-﻿composite_breakdown_label: ''
+﻿composite_breakdown_label: '%'
 computation_units: ''
 copyright: ''
-data_footnote: ''
+data_footnote: We need to be careful as this is just the average.                                                                      d
 data_non_statistical: false
 data_notice_class: ''
 data_notice_heading: ''
@@ -22,11 +22,11 @@ graph_titles: []
 graph_type: line
 indicator_name: global_indicators.1-1-1-title
 indicator_number: '1.1.1'
-national_geographical_coverage: ''
+national_geographical_coverage: Namibia
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
