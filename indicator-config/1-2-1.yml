@@ -9,9 +9,9 @@ data_notice_text: ''
 data_show_map: false
 data_start_values:
   - field: Total
-    value: Total Pop (poor)
+    value: Total Pop  (poor)
   - field: Total
-    value: Total Pop (severely poor)
+    value: Total Pop  (severely poor)
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -24,9 +24,9 @@ graph_series_breaks: []
 graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: >-
-  a) severely poor (by sex head of HH) : LBPL (Lower bound poverty line)
-  (2015/2016): 389.3 N$/m;  b) poor by sex (by sex head of HH) : UBPL (Upper
-  bound poverty line) : 520.8 N$/m
+  National Definition: a) severely poor (by sex head of HH) : LBPL (Lower bound
+  poverty line) (2015/2016): 389.3 N$/m;  b) poor by sex (by sex head of HH) :
+  UBPL (Upper bound poverty line) : 520.8 N$/m
 graph_titles: []
 graph_type: line
 indicator_available: ''
