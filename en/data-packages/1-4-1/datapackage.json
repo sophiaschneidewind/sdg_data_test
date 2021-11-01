@@ -11,13 +11,61 @@
       "schema": {
         "fields": [
           {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rural",
+                "Urban"
+              ]
+            },
+            "title": "Area"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "!Karas",
+                "Erongo",
+                "Hardap",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi"
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           }
         ]

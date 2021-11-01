@@ -12,7 +12,67 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Total",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Pop  (poor)",
+                "Total Pop  (severely poor)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F Pop (head of HH/ poor)",
+                "M Pop (head of HH/ poor)",
+                "F Pop (head of HH/ severely poor)",
+                "M Pop (head of HH/ severely poor)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban Pop (poor)",
+                "Urban Pop (severely poor)",
+                "Rural Pop (poor)",
+                "Rural Pop (severely poor)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "!Karas",
+                "Erongo",
+                "Hardap",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

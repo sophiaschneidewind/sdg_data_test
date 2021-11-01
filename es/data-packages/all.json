@@ -3,6 +3,94 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Total",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total Pop  (poor)",
+                "Total Pop  (severely poor)",
+                ""
+              ]
+            },
+            "title": "Total"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "F Pop (head of HH/ poor)",
+                "M Pop (head of HH/ poor)",
+                "F Pop (head of HH/ severely poor)",
+                "M Pop (head of HH/ severely poor)",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban Pop (poor)",
+                "Urban Pop (severely poor)",
+                "Rural Pop (poor)",
+                "Rural Pop (severely poor)",
+                ""
+              ]
+            },
+            "title": "Area"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "!Karas",
+                "Erongo",
+                "Hardap",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -37,6 +125,78 @@
         ]
       },
       "title": "Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)"
+    },
+    {
+      "path": "1-4-1/data.csv",
+      "name": "1-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Area"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "!Karas",
+                "Erongo",
+                "Hardap",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi",
+                ""
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proporción de la población que vive en hogares con acceso a los servicios básicos"
     },
     {
       "path": "3-b-2/data.csv",
@@ -4935,30 +5095,6 @@
       "title": "Valor añadido del sector manufacturo en proporción al PIB y per cápita"
     },
     {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad"
-    },
-    {
       "path": "9-c-1/data.csv",
       "name": "9-c-1",
       "profile": "tabular-data-resource",
@@ -5677,30 +5813,6 @@
         ]
       },
       "title": "Proporción de la población urbana que vive en barrios marginales, asentamientos informales o viviendas inadecuadas"
-    },
-    {
-      "path": "1-4-1/data.csv",
-      "name": "1-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proporción de la población que vive en hogares con acceso a los servicios básicos"
     },
     {
       "path": "9-a-1/data.csv",

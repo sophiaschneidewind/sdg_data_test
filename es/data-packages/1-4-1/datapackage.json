@@ -12,8 +12,56 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Female",
+                "Male",
+                ""
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Urban",
+                "Rural",
+                ""
+              ]
+            },
+            "title": "Area"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "!Karas",
+                "Erongo",
+                "Hardap",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi",
+                ""
+              ]
+            },
+            "title": "Region"
           },
           {
             "name": "Value",

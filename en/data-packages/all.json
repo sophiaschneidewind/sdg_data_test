@@ -3,6 +3,94 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rural Pop (poor)",
+                "Rural Pop (severely poor)",
+                "Urban Pop (poor)",
+                "Urban Pop (severely poor)"
+              ]
+            },
+            "title": "Area"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "!Karas",
+                "Erongo",
+                "Hardap",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi"
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "F Pop (head of HH/ poor)",
+                "F Pop (head of HH/ severely poor)",
+                "M Pop (head of HH/ poor)",
+                "M Pop (head of HH/ severely poor)"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Total",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Total Pop  (poor)",
+                "Total Pop  (severely poor)"
+              ]
+            },
+            "title": "Total"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of population living below the national poverty line, by sex and age"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -37,6 +125,78 @@
         ]
       },
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
+    },
+    {
+      "path": "1-4-1/data.csv",
+      "name": "1-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Area",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Rural",
+                "Urban"
+              ]
+            },
+            "title": "Area"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "!Karas",
+                "Erongo",
+                "Hardap",
+                "Kavango East",
+                "Kavango West",
+                "Khomas",
+                "Kunene",
+                "Ohangwena",
+                "Omaheke",
+                "Omusati",
+                "Oshana",
+                "Oshikoto",
+                "Otjozondjupa",
+                "Zambezi"
+              ]
+            },
+            "title": "Region"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Female",
+                "Male"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Proportion of population living in households with access to basic services"
     },
     {
       "path": "3-b-2/data.csv",
@@ -4935,30 +5095,6 @@
       "title": "Manufacturing value added as a proportion of GDP and per capita"
     },
     {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of population living below the national poverty line, by sex and age"
-    },
-    {
       "path": "9-c-1/data.csv",
       "name": "9-c-1",
       "profile": "tabular-data-resource",
@@ -5677,30 +5813,6 @@
         ]
       },
       "title": "Proportion of urban population living in slums, informal settlements or inadequate housing"
-    },
-    {
-      "path": "1-4-1/data.csv",
-      "name": "1-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "Proportion of population living in households with access to basic services"
     },
     {
       "path": "9-a-1/data.csv",
