@@ -25,8 +25,8 @@ graph_stacked_disaggregation: ''
 graph_target_lines: []
 graph_title: >-
   National Definition: a) severely poor (by sex head of HH) : LBPL (Lower bound
-  poverty line) (2015/2016): 389.3 N$/m;  b) poor by sex (by sex head of HH) :
-  UBPL (Upper bound poverty line) : 520.8 N$/m
+  poverty line) (2015/2016): 389.3 N$/m;  
+  b) poor (by sex head of HH) : UBPL (Upper bound poverty line) : 520.8 N$/m
 graph_titles: []
 graph_type: line
 indicator_available: ''
